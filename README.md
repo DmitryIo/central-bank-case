@@ -30,4 +30,9 @@
 | Метод | macro avg f1-score |
 |------------|:------------:|
 | TF-IDF + LogReg | 0.633 |
-| BERT | 0.66 |
+| BERT | **0.66** |
+
+Submission-файлы:
+- [final_submission.csv](final_submission.csv) (предсказания TF-IDF + LogReg)
+- [submission_bert_wo_threshold.csv](submission_bert_wo_threshold.csv) (предсказания классов BERT)
+- [submission_bert_w_threshold_0_35.csv](submission_bert_w_threshold_0_35.csv) (предсказания через вероятности классов с порогом в 0.35 BERT)
